@@ -22,7 +22,7 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE. -->
- <EditorStyle name="Solarized Light" _description="Light color scheme using brownish colors.">
+ <EditorStyle name="Solarized Light" _description="Precision colors for machines and people.">
  
    <!-- ubuntu palette -->
 
@@ -41,7 +41,7 @@
   <Color name="violet" value="#6c71c4"/>
   <Color name="blue" value="#268bd2"/>
   <Color name="cyan" value="#2aa198"/>
-  <Color name="green" value="#5f8700"/>
+  <Color name="green" value="#859900"/>
 
 	<Color name="orange_highlight" value="#eec73e"/>
 	<Color name="orange2"           value="#f0a513"/>
@@ -85,8 +85,8 @@
 	
 	<!-- environment -->
 	<Style name="text" color="base00" bgColor="base3"/>
-	<Style name="text.selection" color="human_highlight" bgColor="black"/>
-	<Style name="text.selection.inactive" color="human_highlight" bgColor="darkgray"/>
+	<Style name="text.selection" color="base0" bgColor="base03"/>
+	<Style name="text.selection.inactive" color="base1" bgColor="base02"/>
 	<Style name="text.background.searchresult" color="yellow"/>
 	
 	<Style name="text.link" color="blue"/>
@@ -129,15 +129,15 @@
 	<Style name="marker.debug.currentline.border" color=""/>
 	-->
 		
-	<Style name="linenumber" color="human" bgColor="white"/>
-	<Style name="linenumber.highlight" color="human_base"/>
+	<Style name="linenumber" color="base1" bgColor="base2"/>
+	<Style name="linenumber.highlight" color="base0"/>
 	
-	<Style name="iconbar" color="human_highlight"/>
-	<Style name="iconbar.separator" color="human_base"/>
+	<Style name="iconbar" color="base1"/>
+	<Style name="iconbar.separator" color="base0"/>
 
-	<Style name="fold" color="human" bgColor="white"/>
-	<Style name="fold.highlight" color="environmental_shadow"/>
-	<Style name="fold.togglemarker" color="black"/>
+	<Style name="fold" color="base1" bgColor="base2"/>
+	<Style name="fold.highlight" color="base01"/>
+	<Style name="fold.togglemarker" color="base03"/>
 	
 	<!-- highlighting -->
 	<Style name="comment" color="base1"/>
@@ -149,42 +149,42 @@
 	<Style name="comment.doc" color="base1"/>
 	<Style name="comment.tag.doc" color="base1"/>	
 	<Style name="comment.keyword" color="base1" weight="bold"/>	
-	<Style name="comment.keyword.todo" color="base1" weight="italic"/>		
+	<Style name="comment.keyword.todo" color="magenta" weight="italic"/>		
 	
-	<Style name="text.punctuation" color="accent_magenta"/>
-	<Style name="text.preprocessor" color="environmental_blue_base"/>
-	<Style name="text.preprocessor.keyword" color="environmental_blue_base" weight="bold"/>
-	<Style name="text.markup" color="accent_blue_base"/>
-	<Style name="text.markup.tag" color="accent_blue_shadow"/>
+	<Style name="text.punctuation" color="magenta"/>
+	<Style name="text.preprocessor" color="blue"/>
+	<Style name="text.preprocessor.keyword" color="blue" weight="bold"/>
+	<Style name="text.markup" color="cyan"/>
+	<Style name="text.markup.tag" color="base02"/>
 	
-	<Style name="constant" color="accent_magenta"/>
-	<Style name="constant.digit" color="accent_magenta"/>
-	<Style name="constant.language" color="accent_magenta"/>
-	<Style name="constant.language.void" color="accent_red" weight="bold"/>
+	<Style name="constant" color="blue"/>
+	<Style name="constant.digit" color="blue"/>
+	<Style name="constant.language" color="blue"/>
+	<Style name="constant.language.void" color="orange" weight="bold"/>
 	
-	<Style name="string" color="accent_magenta"/>
-	<Style name="string.single" color="accent_magenta"/>
-	<Style name="string.double" color="accent_magenta"/>
-	<Style name="string.other" color="accent_magenta"/>
+	<Style name="string" color="cyan"/>
+	<Style name="string.single" color="cyan"/>
+	<Style name="string.double" color="cyan"/>
+	<Style name="string.other" color="cyan"/>
 	
-	<Style name="keyword" color="black" weight="bold" />
-	<Style name="keyword.access" color="black" weight="bold" />
+	<Style name="keyword" color="base03" weight="bold" />
+	<Style name="keyword.access" color="base03" weight="bold" />
 	<Style name="keyword.namespace" color="red" weight="bold"/>
 	<Style name="keyword.property" color="accent_blue_base" weight="bold"/>
 	<Style name="keyword.modifier" color="yellow" weight="bold"/>
-	<Style name="keyword.type" color="accent_deep_red" weight="bold"/>
+	<Style name="keyword.type" color="orange" weight="bold"/>
 	<Style name="keyword.declaration" color="yellow" weight="bold"/>
-	<Style name="keyword.access" color="black" weight="bold" />
-	<Style name="keyword.operator" color="accent_dark_violet"/>
+	<Style name="keyword.access" color="base03" weight="bold" />
+	<Style name="keyword.operator" color="magenta" weight="bold"/>
 	<Style name="keyword.operator.declaration" color="yellow" weight="bold"/>
 	<Style name="keyword.selection" color="green" weight="bold"/>
 	<Style name="keyword.iteration" color="green" weight="bold"/>
 	<Style name="keyword.jump" color="green" weight="bold"/>
 	<Style name="keyword.context" color="green" />
-	<Style name="keyword.exceptions" color="accent_orange" weight="bold"/>
-	<Style name="keyword.parameter" color="orange_base" weight="bold"/>
-	<Style name="keyword.misc" color="orange_base"/>
+	<Style name="keyword.exceptions" color="violet" weight="bold"/>
+	<Style name="keyword.parameter" color="orange" weight="bold"/>
+	<Style name="keyword.misc" color="orange"/>
 	
-	<Style name="keyword.semantic.type" color="accent_green_highlight" weight="normal"/>
-	<Style name="keyword.semantic.field" color="black" weight="Italic"/>
+	<Style name="keyword.semantic.type" color="violet" weight="normal"/>
+	<Style name="keyword.semantic.field" color="base03" weight="Italic"/>
 </EditorStyle>
