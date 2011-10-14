@@ -26,22 +26,22 @@
  
    <!-- ubuntu palette -->
 
-  <Color name="base03" value="#002b36"/>
-  <Color name="base02" value="#073642"/>
-  <Color name="base01" value="#586e75"/>
-  <Color name="base00" value="#657b83"/>
-  <Color name="base0" value="#839496"/>
-  <Color name="base1" value="#93a1a1"/>
-  <Color name="base2" value="#eee8d5"/>
-  <Color name="base3" value="#fdf6e3"/>
-  <Color name="yellow" value="#b58900"/>
-  <Color name="orange" value="#cb4b16"/>
-  <Color name="red" value="#dc322f"/>
-  <Color name="magenta" value="#d33682"/>
-  <Color name="violet" value="#6c71c4"/>
-  <Color name="blue" value="#268bd2"/>
-  <Color name="cyan" value="#2aa198"/>
-  <Color name="green" value="#859900"/>
+  <Color name="base03" value="002b36"/>
+  <Color name="base02" value="073642"/>
+  <Color name="base01" value="586e75"/>
+  <Color name="base00" value="657b83"/>
+  <Color name="base0" value="839496"/>
+  <Color name="base1" value="93a1a1"/>
+  <Color name="base2" value="eee8d5"/>
+  <Color name="base3" value="fdf6e3"/>
+  <Color name="yellow" value="b58900"/>
+  <Color name="orange" value="cb4b16"/>
+  <Color name="red" value="dc322f"/>
+  <Color name="magenta" value="d33682"/>
+  <Color name="violet" value="6c71c4"/>
+  <Color name="blue" value="268bd2"/>
+  <Color name="cyan" value="2aa198"/>
+  <Color name="green" value="859900"/>
 
 	<Color name="orange_highlight" value="#eec73e"/>
 	<Color name="orange"           value="#f0a513"/>
@@ -84,7 +84,7 @@
 	<Color name="accent_dark_violet"       value="#6600cc"/>
 	
 	<!-- environment -->
-	<Style name="text" color="base00" bgColor="base3"/>
+	<Style name="text" color="black" bgColor="white"/>
 	<Style name="text.selection" color="human_highlight" bgColor="black"/>
 	<Style name="text.selection.inactive" color="human_highlight" bgColor="darkgray"/>
 	<Style name="text.background.searchresult" color="yellow"/>
@@ -140,16 +140,16 @@
 	<Style name="fold.togglemarker" color="black"/>
 	
 	<!-- highlighting -->
-	<Style name="comment" color="base1"/>
-	<Style name="comment.tag" color="base1"/>	
-	<Style name="comment.line" color="base1"/>
-	<Style name="comment.tag.line" color="base1"/>	
-	<Style name="comment.block" color="base1"/>
-	<Style name="comment.tag.block" color="base1"/>	
-	<Style name="comment.doc" color="base1"/>
-	<Style name="comment.tag.doc" color="base1"/>	
-	<Style name="comment.keyword" color="base1" weight="bold"/>	
-	<Style name="comment.keyword.todo" color="base1" weight="italic"/>		
+	<Style name="comment" color="accent_green_base"/>
+	<Style name="comment.tag" color="accent_green_base"/>	
+	<Style name="comment.line" color="accent_green_base"/>
+	<Style name="comment.tag.line" color="accent_green_base"/>	
+	<Style name="comment.block" color="accent_green_base"/>
+	<Style name="comment.tag.block" color="accent_green_base"/>	
+	<Style name="comment.doc" color="accent_green_base"/>
+	<Style name="comment.tag.doc" color="accent_green_base"/>	
+	<Style name="comment.keyword" color="accent_green_base" weight="bold"/>	
+	<Style name="comment.keyword.todo" color="accent_green_base" weight="italic"/>		
 	
 	<Style name="text.punctuation" color="accent_magenta"/>
 	<Style name="text.preprocessor" color="environmental_blue_base"/>
@@ -169,11 +169,11 @@
 	
 	<Style name="keyword" color="black" weight="bold" />
 	<Style name="keyword.access" color="black" weight="bold" />
-	<Style name="keyword.namespace" color="red" weight="bold"/>
+	<Style name="keyword.namespace" color="accent_green_base" weight="bold"/>
 	<Style name="keyword.property" color="accent_blue_base" weight="bold"/>
-	<Style name="keyword.modifier" color="orange" weight="bold"/>
+	<Style name="keyword.modifier" color="accent_red" weight="bold"/>
 	<Style name="keyword.type" color="accent_deep_red" weight="bold"/>
-	<Style name="keyword.declaration" color="orange" weight="bold"/>
+	<Style name="keyword.declaration" color="accent_blue_shadow" weight="bold"/>
 	<Style name="keyword.access" color="black" weight="bold" />
 	<Style name="keyword.operator" color="accent_dark_violet"/>
 	<Style name="keyword.operator.declaration" color="orange_base" weight="bold"/>
