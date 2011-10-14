@@ -35,16 +35,16 @@
   <Color name="base2" value="#eee8d5"/>
   <Color name="base3" value="#fdf6e3"/>
   <Color name="yellow" value="#b58900"/>
-  <Color name="orange" value="#cb4b16"/>
+  <Color name="orange" value="#d75f00"/>
   <Color name="red" value="#dc322f"/>
   <Color name="magenta" value="#d33682"/>
   <Color name="violet" value="#6c71c4"/>
   <Color name="blue" value="#268bd2"/>
   <Color name="cyan" value="#2aa198"/>
-  <Color name="green" value="#859900"/>
+  <Color name="green" value="#5f8700"/>
 
 	<Color name="orange_highlight" value="#eec73e"/>
-	<Color name="orange"           value="#f0a513"/>
+	<Color name="orange2"           value="#f0a513"/>
 	<Color name="orange_base"      value="#fb8b00"/>
 	<Color name="orange_shadow"    value="#f44800"/>
 
@@ -54,7 +54,7 @@
 	<Color name="environmental_blue_shadow"    value="#003366"/>
 	
 	<Color name="accent_yellow_highlight" value="#fdff99"/>
-	<Color name="yellow"                  value="#ffff00"/>
+	<Color name="yellow2"                  value="#ffff00"/>
 	<Color name="accent_yellow_base"      value="#fdca01"/>
 	<Color name="accent_yellow_shadow"    value="#986601"/>
  
@@ -176,11 +176,11 @@
 	<Style name="keyword.declaration" color="orange" weight="bold"/>
 	<Style name="keyword.access" color="black" weight="bold" />
 	<Style name="keyword.operator" color="accent_dark_violet"/>
-	<Style name="keyword.operator.declaration" color="orange_base" weight="bold"/>
-	<Style name="keyword.selection" color="orange_base" weight="bold"/>
-	<Style name="keyword.iteration" color="orange_base" weight="bold"/>
-	<Style name="keyword.jump" color="orange_base" weight="bold"/>
-	<Style name="keyword.context" color="orange_base" />
+	<Style name="keyword.operator.declaration" color="orange" weight="bold"/>
+	<Style name="keyword.selection" color="green" weight="bold"/>
+	<Style name="keyword.iteration" color="green" weight="bold"/>
+	<Style name="keyword.jump" color="green" weight="bold"/>
+	<Style name="keyword.context" color="green" />
 	<Style name="keyword.exceptions" color="accent_orange" weight="bold"/>
 	<Style name="keyword.parameter" color="orange_base" weight="bold"/>
 	<Style name="keyword.misc" color="orange_base"/>
