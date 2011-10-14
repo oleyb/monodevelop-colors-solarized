@@ -1,28 +1,19 @@
----
-Title: Solarized Colorscheme for MonoDevelop
-Description: Precision colors for machines and people
-Author: Brian Oley
-Created:  2011 Oct 13
-Modified: 2011 Oct 14
-
----
-
 Solarized Colorscheme for MonoDevelop
 =================================================
 
 Developed by Brian Oley
 
-If you have come across this colorscheme via the [repository] on 
+If you have come across this color scheme via the [repository] on 
 github, visit the [Solarized homepage] or visit the main
 [Solarized repository].
 
-[repository]: https://github.com/rcarmo/monodevelop-colors-solarized
+[repository]: https://github.com/oleyb/monodevelop-colors-solarized
 [Solarized homepage]:   http://ethanschoonover.com/solarized
 [Solarized repository]: https://github.com/altercation/solarized
 
 Notes
 -----
-The light is essentially finished. The dark theme will be following
+The light theme is essentially finished and the dark theme will be following
 shortly.
 
 Installation
