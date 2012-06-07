@@ -16,7 +16,7 @@ Notes
 The light theme is essentially finished and the dark theme will be following
 shortly.
 
-##Dark theme added by Kyle Halladay because he's impatient. 
+//Dark theme added by Kyle Halladay because he's impatient. 
 
 Installation
 ------------
