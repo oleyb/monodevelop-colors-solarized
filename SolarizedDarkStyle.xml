@@ -94,6 +94,9 @@ Download the style and in Monodevelop go to MonoDevelop -> Preferences -> Text E
 		<Style name="marker.template.secondary_template" color="white" bgColor="white"/>
 		<Style name="marker.template.secondary_highlighted_template" color="human" bgColor="human_highlight"/>
 
+
+		<Style name="marker.breakpoint.background" color="base02"/>
+
 	<!-- TODO: override defaults
 		<Style name="marker.underline" color="red"/>
 		<Style name="marker.underline.error" color="red"/>
@@ -102,7 +105,7 @@ Download the style and in Monodevelop go to MonoDevelop -> Preferences -> Text E
 		<Style name="marker.breakpoint.color1" color=""/>
 		<Style name="marker.breakpoint.color2" color=""/>
 		<Style name="marker.breakpoint.foreground" color=""/>
-		<Style name="marker.breakpoint.background" color=""/>
+		
 		<Style name="marker.breakpoint.disabled.background" color=""/>
 		<Style name="marker.breakpoint.invalid.background" color=""/>
 		<Style name="marker.breakpoint.invalid.color1" color=""/>
@@ -123,7 +126,7 @@ Download the style and in Monodevelop go to MonoDevelop -> Preferences -> Text E
 
 		<Style name="fold" color="base01" bgColor="base02"/>
 		<Style name="fold.highlight" color="base01"/>
-		<Style name="fold.togglemarker" color="base03"/>
+		<Style name="fold.togglemarker" color="base3"/>
 
 		<!-- highlighting -->
 		<Style name="comment" color="base3"/>
@@ -153,14 +156,13 @@ Download the style and in Monodevelop go to MonoDevelop -> Preferences -> Text E
 		<Style name="string.double" color="cyan"/>
 		<Style name="string.other" color="cyan"/>
 
-		<Style name="keyword" color="base3" weight="bold" />
-		<Style name="keyword.access" color="base3" weight="bold" />
+		<Style name="keyword" color="base2" weight="bold" />
 		<Style name="keyword.namespace" color="red" weight="bold"/>
 		<Style name="keyword.property" color="accent_blue_base" weight="bold"/>
 		<Style name="keyword.modifier" color="yellow" weight="bold"/>
 		<Style name="keyword.type" color="orange" weight="bold"/>
 		<Style name="keyword.declaration" color="yellow" weight="bold"/>
-		<Style name="keyword.access" color="base3" weight="bold" />
+		<Style name="keyword.access" color="base2" weight="bold" />
 		<Style name="keyword.operator" color="magenta" weight="bold"/>
 		<Style name="keyword.operator.declaration" color="yellow" weight="bold"/>
 		<Style name="keyword.selection" color="green" weight="bold"/>
