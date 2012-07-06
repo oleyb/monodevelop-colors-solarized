@@ -1,0 +1,178 @@
+<!-- SolarizedDark.xml
+
+ Author:
+    Author: Ethan Schoonover, Solarized; Kyle Halladay, MonoDevelop Dark adaptation
+
+Usage
+Download the style and in Monodevelop go to MonoDevelop -> Preferences -> Text Editor -> Syntax Highlighting and select the style.xml file after clicking "Add". You may be required to restart MonoDevelop for the theme to become active.
+
+ -->
+
+<EditorStyle name="Solarized Dark" _description="Precision colors for machines and people.">
+
+	   <!-- ubuntu palette -->
+
+	  <Color name="base03" value="#002b36"/>
+	  <Color name="base02" value="#073642"/>
+	  <Color name="base01" value="#586e75"/>
+	  <Color name="base00" value="#657b83"/>
+	  <Color name="base0" value="#839496"/>
+	  <Color name="base1" value="#93a1a1"/>
+	  <Color name="base2" value="#eee8d5"/>
+	  <Color name="base3" value="#fdf6e3"/>
+	  <Color name="yellow" value="#b58900"/>
+	  <Color name="orange" value="#d75f00"/>
+	  <Color name="red" value="#dc322f"/>
+	  <Color name="magenta" value="#d33682"/>
+	  <Color name="violet" value="#6c71c4"/>
+	  <Color name="blue" value="#268bd2"/>
+	  <Color name="cyan" value="#2aa198"/>
+	  <Color name="green" value="#859900"/>
+
+		<Color name="orange_highlight" value="#eec73e"/>
+		<Color name="orange2"           value="#f0a513"/>
+		<Color name="orange_base"      value="#fb8b00"/>
+		<Color name="orange_shadow"    value="#f44800"/>
+
+		<Color name="environmental_blue_highlight" value="#aaccee"/>
+		<Color name="environmental_blue_medium"    value="#6699cc"/>
+		<Color name="environmental_blue_base"      value="#336699"/>
+		<Color name="environmental_blue_shadow"    value="#003366"/>
+
+		<Color name="accent_yellow_highlight" value="#fdff99"/>
+		<Color name="yellow2"                  value="#ffff00"/>
+		<Color name="accent_yellow_base"      value="#fdca01"/>
+		<Color name="accent_yellow_shadow"    value="#986601"/>
+
+		<Color name="accent_blue_highlight" value="#b3defd"/>
+		<Color name="accent_blue"           value="#0197fd"/>
+		<Color name="accent_blue_base"      value="#0169c9"/>
+		<Color name="accent_blue_shadow"    value="#013397"/>
+
+		<Color name="accent_orange"   value="#f44800"/>
+		<Color name="accent_red"      value="#fd3301"/>
+		<Color name="accent_red_base" value="#d40000"/>
+		<Color name="accent_deep_red" value="#980101"/>
+
+		<Color name="accent_green_highlight" value="#ccff99"/>
+		<Color name="accent_green"           value="#98fc66"/>
+		<Color name="accent_green_base"      value="#339900"/>
+		<Color name="accent_green_shadow"    value="#015a01"/>
+
+		<Color name="human_highlight"      value="#fdd99b"/>
+		<Color name="human"                value="#d9bb7a"/>
+		<Color name="human_base"           value="#816647"/>
+		<Color name="environmental_shadow" value="#565248"/>
+
+		<Color name="ubuntu_toner"             value="#002b3d"/>
+		<Color name="accent_magenta_highlight" value="#ff9bff"/>
+		<Color name="accent_magenta"           value="#ff00ff"/>
+		<Color name="accent_dark_violet"       value="#6600cc"/>
+
+		<!-- environment -->
+		<Style name="text" color="base0" bgColor="base03"/>
+		<Style name="text.selection" color="base00" bgColor="base02"/>
+		<Style name="text.selection.inactive" color="base1" bgColor="base02"/>
+		<Style name="text.background.searchresult" color="yellow"/>
+
+		<Style name="text.link" color="blue"/>
+
+		<Style name="marker.line" color="accent_blue_highlight"/>
+		<Style name="marker.line.changed" color="blue"/>	
+		<Style name="marker.line.dirty" color="accent_blue_highlight"/>	
+
+		<Style name="marker.ruler" color="accent_blue_highlight"/>
+		<Style name="marker.whitespace" color="base03"/>
+		<Style name="marker.invalidline" color="accent_red_base"/>
+		<Style name="marker.bracket" color="environmental_blue_medium" bgColor="environmental_blue_highlight"/>
+
+		<Style name="marker.bookmark.color1" color="human_highlight"/>
+		<Style name="marker.bookmark.color2" color="human_base"/>
+
+		<Style name="marker.template.primary_template" color="accent_green_shadow" bgColor="accent_green"/>
+		<Style name="marker.template.primary_highlighted_template" color="accent_green_shadow" bgColor="accent_green_highlight"/>
+		<Style name="marker.template.secondary_template" color="white" bgColor="white"/>
+		<Style name="marker.template.secondary_highlighted_template" color="human" bgColor="human_highlight"/>
+
+
+		<Style name="marker.breakpoint.background" color="base02"/>
+
+	<!-- TODO: override defaults
+		<Style name="marker.underline" color="red"/>
+		<Style name="marker.underline.error" color="red"/>
+		<Style name="marker.underline.warning" color="yellow"/>
+
+		<Style name="marker.breakpoint.color1" color=""/>
+		<Style name="marker.breakpoint.color2" color=""/>
+		<Style name="marker.breakpoint.foreground" color=""/>
+		
+		<Style name="marker.breakpoint.disabled.background" color=""/>
+		<Style name="marker.breakpoint.invalid.background" color=""/>
+		<Style name="marker.breakpoint.invalid.color1" color=""/>
+		<Style name="marker.breakpoint.invalid.border" color=""/>
+
+		<Style name="marker.debug.currentline.foreground" color=""/>
+		<Style name="marker.debug.currentline.background" color=""/>
+		<Style name="marker.debug.currentline.color1" color=""/>
+		<Style name="marker.debug.currentline.color2" color=""/>
+		<Style name="marker.debug.currentline.border" color=""/>
+		-->
+
+		<Style name="linenumber" color="base01" bgColor="base03"/>
+		<Style name="linenumber.highlight" color="base3"/>
+
+		<Style name="iconbar" color="base1"/>
+		<Style name="iconbar.separator" color="base0"/>
+
+		<Style name="fold" color="base01" bgColor="base02"/>
+		<Style name="fold.highlight" color="base01"/>
+		<Style name="fold.togglemarker" color="base3"/>
+
+		<!-- highlighting -->
+		<Style name="comment" color="base3"/>
+		<Style name="comment.tag" color="base3"/>	
+		<Style name="comment.line" color="base3"/>
+		<Style name="comment.tag.line" color="base3"/>	
+		<Style name="comment.block" color="base3"/>
+		<Style name="comment.tag.block" color="base3"/>	
+		<Style name="comment.doc" color="base3"/>
+		<Style name="comment.tag.doc" color="base3"/>	
+		<Style name="comment.keyword" color="base3" weight="bold"/>	
+		<Style name="comment.keyword.todo" color="magenta" weight="italic"/>		
+
+		<Style name="text.punctuation" color="magenta"/>
+		<Style name="text.preprocessor" color="blue"/>
+		<Style name="text.preprocessor.keyword" color="blue" weight="bold"/>
+		<Style name="text.markup" color="cyan"/>
+		<Style name="text.markup.tag" color="base02"/>
+
+		<Style name="constant" color="blue"/>
+		<Style name="constant.digit" color="blue"/>
+		<Style name="constant.language" color="blue"/>
+		<Style name="constant.language.void" color="orange" weight="bold"/>
+
+		<Style name="string" color="cyan"/>
+		<Style name="string.single" color="cyan"/>
+		<Style name="string.double" color="cyan"/>
+		<Style name="string.other" color="cyan"/>
+
+		<Style name="keyword" color="base2" weight="bold" />
+		<Style name="keyword.namespace" color="red" weight="bold"/>
+		<Style name="keyword.property" color="accent_blue_base" weight="bold"/>
+		<Style name="keyword.modifier" color="yellow" weight="bold"/>
+		<Style name="keyword.type" color="orange" weight="bold"/>
+		<Style name="keyword.declaration" color="yellow" weight="bold"/>
+		<Style name="keyword.access" color="base2" weight="bold" />
+		<Style name="keyword.operator" color="magenta" weight="bold"/>
+		<Style name="keyword.operator.declaration" color="yellow" weight="bold"/>
+		<Style name="keyword.selection" color="green" weight="bold"/>
+		<Style name="keyword.iteration" color="green" weight="bold"/>
+		<Style name="keyword.jump" color="green" weight="bold"/>
+		<Style name="keyword.context" color="green" />
+		<Style name="keyword.exceptions" color="violet" weight="bold"/>
+		<Style name="keyword.parameter" color="orange" weight="bold"/>
+		<Style name="keyword.misc" color="orange"/>
+
+		<Style name="keyword.semantic.type" color="violet" weight="normal"/>
+		<Style name="keyword.semantic.field" color="base03" weight="Italic"/>
+	</EditorStyle>

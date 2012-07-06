@@ -1,7 +1,7 @@
 Solarized Colorscheme for MonoDevelop
 =================================================
 
-Developed by Brian Oley
+Developed by Brian Oley; Dark Theme Adaptation by Kyle Halladay
 
 If you have come across this color scheme via the [repository] on 
 github, visit the [Solarized homepage] or visit the main
@@ -16,6 +16,8 @@ Notes
 The light theme is essentially finished and the dark theme will be following
 shortly.
 
+//Dark theme added by Kyle Halladay because he's impatient. 
+
 Installation
 ------------
 Installation is simple. Download the style and in Monodevelop go to
@@ -25,7 +27,7 @@ restart MonoDevelop for the theme to become active.
 
 License
 -------
-Copyright (c) 2011 Brian Oley
+Light Theme: Copyright (c) 2011 Brian Oley / Dark Theme: Copyright (c) 2012 Kyle Halladay
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
